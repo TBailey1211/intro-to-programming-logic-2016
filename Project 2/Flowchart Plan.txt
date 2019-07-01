@@ -1,0 +1,52 @@
+START: (Parenthesis are NOT for Flowchart; just for personal planning for code)
+
+(Ask username)
+
+ Input userName
+
+ Display userName
+
+(Ask length of the property in feet)
+
+ Input lotLength,
+(Ask width of the property in feet)
+ Input lotWidth,
+
+(Ask length of house in feet)
+
+Input houseLength,
+(Ask width of house in feet)
+Input houseWidth,
+
+(Calculate the maximum diameter allowed by zoning restriction)
+ maxDiameter = POND_RESTRICTION * lotWidth
+ maxDiameter = Math.floor(maxDiameter)
+
+ Display maxDiameter
+
+(Ask for pond diameter) 
+
+ Input desiredDiameter 
+(Ask for pond depth)
+ Input desiredDepth
+
+(Calculate everything else)
+lotSquareFootage = lotWidth * lotLength
+houseSquareFootage = houseWidth * houseLength
+pondRadius = desiredDiameter / 2
+pondSquareFootage = Math.PI * (Math.pow(pondRadius,2))
+sodFootage = lotSquareFootage - houseSquareFootage - pondSquareFootage
+sodCost = sodSquareFootage * SOD_PRICE
+
+Display lotLength,
+lotWidth,
+houseLength,
+houseWidth,
+desiredDiameter,
+desiredDepth,
+lotSquareFootage,
+houseSquareFootage,
+pondSquareFootage,
+sodSquareFootage,
+sodCost
+
