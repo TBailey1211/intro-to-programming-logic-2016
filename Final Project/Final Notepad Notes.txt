@@ -1,0 +1,41 @@
+EcoPlan (45+channels) - 19.99
+DigitalPlan (140+channels) - 49.99
+HDPlan (220+channels) - 59.99
+
+======
+
+[START MAIN METHOD/RUN PROGRAM]
+
+Use seperate methods (functions) to 
+     request and input Cable TV package and return to main
+     test the Cable TV package and return monthly cost to main
+
+Ask if they would like (optional)
+     High Speed Internet (75 Mbps) - 29.99
+     Voice Over IP (75 Mpbs) - 29.99
+
+If customer chooses to process the payment automatically (from debit or credit card)
+     give the customer a 2% discount on final monthly bill
+
+DISPLAY:
+     Name, Price of Cable TV Plan
+     Choices and prices for High Speed Internet/Voice Over IP      Plans
+     Discount amount calculated
+
+[END MAIN METHOD/RUN PROGRAM]
+
+[Methods go here]
+
+DISPLAY SALES REPORT:
+
+Ecoplans sold:
+Ecoplan final sales:
+DigitalPlan sold:
+DigitalPlan final sales:
+HDPlan sold:
+HDPlan final sales:
+High Speed Internet sold:
+High Speed Internet final sales:
+Voice Over IP sold:
+Voice Over IP final sales:
+2% discounts given:
