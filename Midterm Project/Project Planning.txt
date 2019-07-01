@@ -1,0 +1,32 @@
+Ask for residency status (Berkeley/Charleston/Dorchester/out of county/out of state)
+
+
+if residency = berkeley (B) && Charleston (C) && Dorchester (D)
+    tuitionPerCredit = 168.30
+else if residency = outOfCounty (E)
+    tuitionPerCredit = 186.30
+else if residency = outOfState (F)
+    tuitionPerCredit = 318.55
+
+Ask for number of credits
+
+if residency = berkeley && charleston && dorchester && outofcounty
+&& numberOfCredits >= 6
+    lotteryAssistance = 100.00 (LOTTERY_AMOUNT) * numberOfCredits
+
+============================================================
+Tuition for Berkeley/Charleston/Dorchester = 168.30
+Tuition for out of county = 186.72
+Tuition for out of state = 318.55
+
+Tuition calculation = number of credits * tuition per credit
+at LEAST 6 credits receive SC lottery = 100.00 * number of credits
+
+(DISPLAY)
+
+Residency Status
+Credits
+Per Credit Tuition Amount($)
+The Basic Tuition before SC Lottery is applied($)
+The SC Lottery amount applied($)
+Final Tuition after SC Lottery is applied($)
