@@ -1,0 +1,25 @@
+Print an intro message
+Ask for sales data
+  What is being purchased (use a menu) (use loop to get valid selection)
+  lemonade, cookies, t-shirts, quit
+
+(have all the selections be simple, like a simple letter) 
+
+if lemonade (use loop to validate choice)
+   what size cup?
+   12 oz (1.50)
+   16 oz (2.00)
+
+if else cookies (use loop to validate choice)
+   what cookie?
+   chocolate chip (75)
+   oatmeal (75)
+
+if else t-shirt (use loop to validate choice)
+   autographed or not?
+   non auto (8.00)
+   auto (15.00)
+
+display onscreen each item and price per individual sale
+
+display 2 decimal points for any monetary amount
